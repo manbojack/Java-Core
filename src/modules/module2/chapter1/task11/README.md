@@ -10,7 +10,7 @@
 >3) Метод должен быть виден из любого пакета
 >4) Сигнатура метода должна быть: drawisMonitorsCounter(int monitors, int programmers)
 
-### [Решение:](Solution.java)
+### [Решение:]()
 ```java
 public int drawisMonitorsCounter(int monitors, int programmers) {
         return monitors % programmers;

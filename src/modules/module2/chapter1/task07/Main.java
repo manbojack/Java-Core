@@ -1,4 +1,4 @@
-package modules.module2.chapter1.task7;
+package modules.module2.chapter1.task07;
 
 public class Main {
     public static void main(String[] args) {

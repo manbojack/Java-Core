@@ -13,6 +13,6 @@
 ### [Решение:]()
 ```java
 public int drawisMonitorsCounter(int monitors, int programmers) {
-        return monitors % programmers;
+    return monitors % programmers;
 }
 ```

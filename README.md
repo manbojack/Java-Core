@@ -1,13 +1,13 @@
 ### 1. [Введение в Java:](src/modules/module1)
->-  1.1 <b>Что такое Java, откуда она взялась и зачем нужна</b>
->-  1.2 <b>Первый контакт — Hello World</b>
->-  1.3 <b>Знакомство со средой разработки</b>
+>-  <b>1.1 Что такое Java, откуда она взялась и зачем нужна</b>
+>-  <b>1.2 Первый контакт — Hello World</b>
+>-  <b>1.3 Знакомство со средой разработки</b>
 
 ### 2. [<b>Примитивные типы:</b>](src/modules/module2)
->- 2.1 <b>Примитивные типы</b> ( [7](src/modules/module2/chapter1/task07), [10](src/modules/module2/chapter1/task10), [11](src/modules/module2/chapter1/task11) )
->- 2.2 <b>Преобразование типов</b> ( [2](src/modules/module2/chapter2/task02), [8](src/modules/module2/chapter2/task08) )
->- 2.3 <b>Массивы и строки</b> ( [10](src/modules/module2/chapter3/task10) )
->- 2.4 <b>Управляющие конструкции: условные операторы и циклы</b> ( [13], [14], [15], [16], [17], [18] )
+>- <b>2.1 Примитивные типы ( [7](src/modules/module2/chapter1/task07), [10](src/modules/module2/chapter1/task10), [11](src/modules/module2/chapter1/task11) )</b>
+>- <b>2.2 Преобразование типов ( [2](src/modules/module2/chapter2/task02), [8](src/modules/module2/chapter2/task08) )</b>
+>- <b>2.3 Массивы и строки ( [10](src/modules/module2/chapter3/task10) )</b>
+>- <b>2.4 Управляющие конструкции: условные операторы и циклы ( [13], [14], [15], [16], [17], [18] )</b>
 >- [<b>Вопросы по ревью</b>](src/modules/module2/questions.md)
 
 ### 3. [Объекты, классы и пакеты в Java:](src/modules/module3)

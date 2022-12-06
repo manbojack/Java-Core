@@ -3,8 +3,8 @@
 >- #### 1.2 Первый контакт — Hello World
 >- #### 1.3 Знакомство со средой разработки
 
-### 2. [Примитивные типы:](src/modules/module2)
->- #### 1. Примитивные типы { задачи: [7](src/modules/module2/chapter1/task07), [10](src/modules/module2/chapter1/task10), [11](src/modules/module2/chapter1/task11) }
+### 2. [<b>Примитивные типы:</b>](src/modules/module2)
+>- #### 1. <b>Примитивные типы</b> { задачи: [7](src/modules/module2/chapter1/task07), [10](src/modules/module2/chapter1/task10), [11](src/modules/module2/chapter1/task11) }
 >- #### 2. Преобразование типов { задачи: [2](), [8]() }
 >- #### 3. Массивы и строки { задачи: [10]() }
 >- #### 4. Управляющие конструкции: условные операторы и циклы { задачи: [13](), [14](), [15](), [16](), [17](), [18]() }

@@ -1,4 +1,4 @@
-### Урок с кодом:
+### Условие:
 >Напишите публичный метод priceCalculation, который считает стоимость товара.
 В метод передается цена товара (может быть дробной) и количество товара, метод должен возвращать итоговую цену покупки.
  
@@ -8,4 +8,9 @@
 >Требования:   
 Сигнатура метода должна быть: priceCalculation(double price, int count)
 
-### [java код](Solution.java)
+### [Решение:](Solution.java)
+```java
+public double priceCalculation(double price, int count) {
+    return price * count;
+}
+```

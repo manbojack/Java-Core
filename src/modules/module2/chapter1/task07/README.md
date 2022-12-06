@@ -7,3 +7,5 @@
 
 >Требования:   
 Сигнатура метода должна быть: priceCalculation(double price, int count)
+
+### [java код](Solution.java)

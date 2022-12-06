@@ -6,3 +6,5 @@
 
 >Требования:   
 Метод должен иметь сигнатуру: doubleExpression(double a, double b, double c)
+
+### [java код](Solution.java)

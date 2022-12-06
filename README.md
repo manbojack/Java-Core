@@ -6,7 +6,7 @@
 ### 2. [<b>Примитивные типы:</b>](src/modules/module2)
 >- #### 1. <b>Примитивные типы</b> ( [7](src/modules/module2/chapter1/task07), [10](src/modules/module2/chapter1/task10), [11](src/modules/module2/chapter1/task11) )
 >- #### 2. Преобразование типов ( [2](src/modules/module2/chapter2/task02), [8](src/modules/module2/chapter2/task08) )
->- #### 3. Массивы и строки ( [10] )
+>- #### 3. Массивы и строки ( [10](src/modules/module2/chapter3/task10) )
 >- #### 4. Управляющие конструкции: условные операторы и циклы ( [13], [14], [15], [16], [17], [18] )
 >- #### [Вопросы по ревью](src/modules/module2/questions.md)
 

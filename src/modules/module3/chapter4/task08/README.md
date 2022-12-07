@@ -72,6 +72,6 @@ public static class ComplexNumber {
 		result = result * 17 + (int)(lIm ^ (lIm >>> 32));
 
 		return result;
-	}
+    }
 }
 ```

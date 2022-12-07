@@ -19,9 +19,9 @@
 >- #### [Вопросы по ревью](src/modules/module3/questions.md)
 
 ### 4. [Обработка ошибок, исключения, отладка]()
->- #### 4.1 Знакомство с исключениями ( [8], [9] )
->- #### 4.2 Обработка исключений. Try-catch ( [6], [7], [8], [9] )
->- #### 4.3 Логирование ( [6], [7] )
+>- #### 4.1 Знакомство с исключениями ( [8](src/modules/module4/chapter1/task08), [9](src/modules/module4/chapter1/task09) )
+>- #### 4.2 Обработка исключений. Try-catch ( [6](src/modules/module4/chapter2/task06), [7](src/modules/module4/chapter2/task07), [8](src/modules/module4/chapter2/task08), [9](src/modules/module4/chapter2/task09) )
+>- #### 4.3 Логирование ( [6](src/modules/module4/chapter3/task06), [7](src/modules/module4/chapter3/task07) )
 >- #### [Вопросы по ревью](src/modules/module4/questions.md)
 
 ### 5. [Ввод-вывод, доступ к файловой системе]()

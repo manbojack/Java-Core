@@ -71,38 +71,38 @@ robot.stepForward();
 ### [Решение:]()
 ```java
 public static void moveRobot(Robot robot, int toX, int toY) {
-int stepsX = toX - robot.getX();
-int stepsY = toY - robot.getY();
-
-if (stepsY >= 0) {
-    while (robot.getDirection() != Direction.UP) {
-        robot.turnRight();
+    int stepsX = toX - robot.getX();
+    int stepsY = toY - robot.getY();
+    
+    if (stepsY >= 0) {
+        while (robot.getDirection() != Direction.UP) {
+            robot.turnRight();
+        }
+        for (int step = 0; step < stepsY; step++) {
+            robot.stepForward();
+        }
+    } else {
+        while (robot.getDirection() != Direction.DOWN) {
+            robot.turnRight();
+        }
+        for (int step = 0; step < -1 * stepsY; step++) {
+            robot.stepForward();
+        }
     }
-    for (int step = 0; step < stepsY; step++) {
-        robot.stepForward();
+    if (stepsX >= 0) {
+        while (robot.getDirection() != Direction.RIGHT) {
+            robot.turnRight();
+        }
+        for (int step = 0; step < stepsX; step++) {
+            robot.stepForward();
+        }
+    } else {
+        while (robot.getDirection() != Direction.LEFT) {
+            robot.turnRight();
+        }
+        for (int step = 0; step < -1 * stepsX; step++) {
+            robot.stepForward();
+        }
     }
-} else {
-    while (robot.getDirection() != Direction.DOWN) {
-        robot.turnRight();
-    }
-    for (int step = 0; step < -1 * stepsY; step++) {
-        robot.stepForward();
-    }
-}
-if (stepsX >= 0) {
-    while (robot.getDirection() != Direction.RIGHT) {
-        robot.turnRight();
-    }
-    for (int step = 0; step < stepsX; step++) {
-        robot.stepForward();
-    }
-} else {
-    while (robot.getDirection() != Direction.LEFT) {
-        robot.turnRight();
-    }
-    for (int step = 0; step < -1 * stepsX; step++) {
-        robot.stepForward();
-    }
-}
 }
 ```

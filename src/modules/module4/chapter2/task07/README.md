@@ -29,10 +29,10 @@ public static class Car implements AutoCloseable {
 }
 
 public static void main(String... args) {
-	try (Car car = new Car()) {
-		car.drive();
-	} catch (Exception e) {
-		// Ignore all
-	}
+    try (Car car = new Car()) {
+        car.drive();
+    } catch (Exception e) {
+        // Ignore all
+    }
 }
 ```

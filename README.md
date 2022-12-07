@@ -15,7 +15,7 @@
 >- #### 3.2 Пакеты и модификаторы доступа
 >- #### 3.3 Объявление класса ( [11](src/modules/module3/chapter3/task11), [12](src/modules/module3/chapter3/task12), [13](src/modules/module3/chapter3/task13) )
 >- #### 3.4 Наследование. Класс Object ( [8](src/modules/module3/chapter4/task08) )
->- #### 3.5 Абстрактные классы и интерфейсы ( [5], [6], [7], [8] )
+>- #### 3.5 Абстрактные классы и интерфейсы ( [6](src/modules/module3/chapter5/task06), [7](src/modules/module3/chapter5/task07) )
 >- #### [Вопросы по ревью](src/modules/module3/questions.md)
 
 ### 4. [Обработка ошибок, исключения, отладка]()

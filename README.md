@@ -8,7 +8,7 @@
 >- #### 2.2 Преобразование типов ( [2](src/modules/module2/chapter2/task02), [8](src/modules/module2/chapter2/task08) )
 >- #### 2.3 Массивы и строки ( [10](src/modules/module2/chapter3/task10) )
 >- #### 2.4 Управляющие конструкции: условные операторы и циклы ( [13](src/modules/module2/chapter4/task13), [14](src/modules/module2/chapter4/task14), [15](src/modules/module2/chapter4/task15), [16](src/modules/module2/chapter4/task16), [17](src/modules/module2/chapter4/task17), [18](src/modules/module2/chapter4/task18) )
->- [<b>Вопросы по ревью</b>](src/modules/module2/questions.md)
+>- #### [Вопросы по ревью](src/modules/module2/questions.md)
 
 ### 3. [Объекты, классы и пакеты в Java:]()
 >- #### 3.1 Основы ООП

@@ -26,9 +26,9 @@
 
 ### 5. [Ввод-вывод, доступ к файловой системе]()
 >- #### 5.1 Доступ к файловой системе
->- #### 5.2 Потоки байт ( [7], [8] )
->- #### 5.3 Потоки символов ( [11], [12] )
->- #### 5.4 Продвинутые возможности ( [7] )
+>- #### 5.2 Потоки байт ( [7](src/modules/module5/chapter2/task07), [8](src/modules/module5/chapter2/task08) )
+>- #### 5.3 Потоки символов ( [11](src/modules/module5/chapter3/task11), [12](src/modules/module5/chapter3/task12) )
+>- #### 5.4 Продвинутые возможности ( [7](src/modules/module5/chapter4/task07) )
 >- #### [Вопросы по ревью](src/modules/module5/questions.md)
 
 ### 6. [Generics. Collections.]()

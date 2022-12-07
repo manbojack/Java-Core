@@ -32,8 +32,8 @@
 >- #### [Вопросы по ревью](src/modules/module5/questions.md)
 
 ### 6. [Generics. Collections.]()
->- #### 6.1 Generics ( [11], [12], [13], [14] )
->- #### 6.2 Коллекции ( [13], [14], [15] )
+>- #### 6.1 Generics ( [11](src/modules/module6/chapter1/task11), [12](src/modules/module6/chapter1/task12), [13](src/modules/module6/chapter1/task13), [14](src/modules/module6/chapter1/task14) )
+>- #### 6.2 Коллекции ( [13](src/modules/module6/chapter2/task13), [14](src/modules/module6/chapter2/task14), [15](src/modules/module6/chapter2/task15) )
 >- #### [Вопросы по ревью](src/modules/module6/questions.md)
 
 ### 7. [Функциональные Интерфейсы. Streams]()

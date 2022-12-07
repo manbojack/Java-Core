@@ -3,7 +3,7 @@ package modules.module6.chapter1.task13;
 import java.util.Objects;
 
 
-public class Main {
+public class Solution {
     public static void main(String[] args) {
         Pair<Integer, String> pair = Pair.of(1, "hello");
         Integer i = pair.getFirst(); // 1

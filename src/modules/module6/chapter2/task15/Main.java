@@ -11,7 +11,7 @@ public class Main {
                 scanner.nextInt();
                 deque.addFirst(scanner.nextInt());
             }
-        } catch (Exception ignored) {
+        } catch (NoSuchElementException ignored) {
 
         }
         for (Integer integer : deque) {

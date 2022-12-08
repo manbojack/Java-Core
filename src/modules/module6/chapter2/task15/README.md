@@ -27,7 +27,7 @@ public static void main(String[] args) {
             scanner.nextInt();
             deque.addFirst(scanner.nextInt());
         }
-    } catch (Exception ignored) {
+    } catch (NoSuchElementException ignored) {
     
     }
     for (Integer integer : deque) {

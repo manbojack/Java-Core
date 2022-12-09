@@ -49,7 +49,9 @@ public enum Direction {
 ```
 >Как это выглядит: 
 > 
->![](robot.png)
+><p align="center">
+>    <img src=robot.png
+></p>
 
 >Пример
 В метод передано: toX == 3, toY == 0; начальное состояние робота такое: 

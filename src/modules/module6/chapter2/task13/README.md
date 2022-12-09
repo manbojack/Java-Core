@@ -28,3 +28,5 @@ public static <T> Set<T> symmetricDifference(Set<? extends T> set1, Set<? extend
     return result;
 }
 ```
+### Сообщение от ментора:
+> Не использовать циклы

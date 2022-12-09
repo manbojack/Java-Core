@@ -54,9 +54,9 @@ public static <T> T staticMethod (T t) {return ….}
 целью обеспечения возможностей эффективного доступа к ним.
 Коллекции похожи на массивы, но имеют намного большей возможностей. Основной функционал определен в
 интерфейсе Collection.  
-<p align="center">
-  <img src="java-collection-hierarchy.png">
-</p>
+><p align="center">
+>  <img src="java-collection-hierarchy.png">
+></p>
 
 >- <b>Collection:</b>  
 Этот интерфейс позволяет нам работать с группами объектов.

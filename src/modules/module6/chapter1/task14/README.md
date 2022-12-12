@@ -20,44 +20,39 @@
 ### [Решение:]()
 ```java
 public static class DynamicArray<T> {
-
     private T[] array;
+    private int size;
 
     public DynamicArray() {
+        this.array = (T[]) new Object[10];
     }
 
-    public void add(T el) {
-        if (array == null) {
-            this.array = (T[]) new Object[]{el};
-        } else {
-            T[] added = (T[]) new Object[array.length + 1];
-            System.arraycopy(array, 0, added, 0, array.length);
-            added[array.length] = el;
-            this.array = added;
+    private int getIndex(int index) {
+        if (index >= size || index < 0) {
+            throw new ArrayIndexOutOfBoundsException();
         }
-    }
-
-    public void remove(int index) {
-        try {
-            if (array != null) {
-                T[] deleted = (T[]) new Object[array.length - 1];
-                System.arraycopy(array, 0, deleted, 0, index);
-                System.arraycopy(array, index + 1, deleted, index, deleted.length - index);
-                this.array = deleted;
-            }
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.err.println(e.getMessage());
-        }
+        return index;
     }
 
     public T get(int index) {
-        try {
-            return array[index];
-        } catch (ArrayIndexOutOfBoundsException e) {
-            throw new ArrayIndexOutOfBoundsException();
-        }
+        return array[getIndex(index)];
     }
 
+    public void remove(int index) {
+        getIndex(index);
+        System.arraycopy(array, index + 1, array, index, array.length - index - 1);
+        size--;
+    }
+
+    public void add(T el) {
+        if (size == array.length)  {
+            T[] newArray = (T[]) new Object[(2 * array.length)];
+            System.arraycopy(array, 0, newArray, 0, array.length);
+            array = newArray;
+        }
+        array[size] = el;
+        size++;
+    }
 }
 ```
 ### Сообщение от ментора:

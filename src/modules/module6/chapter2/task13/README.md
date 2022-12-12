@@ -14,19 +14,11 @@
 ### [Решение:]()
 ```java
 public static <T> Set<T> symmetricDifference(Set<? extends T> set1, Set<? extends T> set2) {
-    Set<T> result = new HashSet<>();
-    for (T s1 : set1) {
-        if (!set2.contains(s1)) {
-            result.add(s1);
-        }
-    }
-    for (T s2 : set2) {
-        if (!set1.contains(s2)) {
-            result.add(s2);
-        }
-    }
+    Set<T> result = new HashSet<>(set1);
+    result.addAll(set2);
+    Set<T> tmp = new HashSet<>(set1);
+    tmp.retainAll(set2);
+    result.removeAll(tmp);
     return result;
 }
 ```
-### Сообщение от ментора:
-> Не использовать циклы

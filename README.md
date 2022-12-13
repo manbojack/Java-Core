@@ -37,6 +37,6 @@
 >- #### [Вопросы по ревью](src/modules/module6/questions.md)
 
 ### 7. [Функциональные Интерфейсы. Streams]()
->- #### 7.1 Функциональные интерфейсы ( [8](src/modules/module7/chapter1/task08), [9], [10] )
->- #### 7.2 Stream API ( [10], [11], [11], [12], [13] )
+>- #### 7.1 Функциональные интерфейсы ( [8](src/modules/module7/chapter1/task08), [9](src/modules/module7/chapter1/task09), [10](src/modules/module7/chapter1/task10) )
+>- #### 7.2 Stream API ( [10](src/modules/module7/chapter2/task10), [11](src/modules/module7/chapter2/task11), [12](src/modules/module7/chapter2/task12), [13](src/modules/module7/chapter2/task13) )
 >- #### [Вопросы по ревью](src/modules/module7/questions.md)

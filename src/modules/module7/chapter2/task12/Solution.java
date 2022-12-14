@@ -21,9 +21,7 @@ public class Solution {
                 .limit(10)
                 .collect(
                         Collectors.toMap(
-                                Map.Entry::getKey,
-                                Map.Entry::getValue,
-                                (e1, e2) -> e2, LinkedHashMap::new
+                                Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new
                         )
                 );
 

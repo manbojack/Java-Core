@@ -97,7 +97,8 @@ default и static.
 >| Массив|Arrays.stream(arr)	|String[] arr = {"f5","b6","z7"}; 
 >|- |- | Stream<String> arrS = Arrays.stream(arr);
 >|Файл - каждая новая строка становится элементом|Files.lines(file_path)	|Stream<String> fromFileS = Files.lines(Paths.get("doc.txt"))
->|Stream.builder	|
+>|Stream.builder	|Stream.builder().add(...)|Stream.builder().add("f5").add("b6").build()
+
 
 
 #### Что такое терминальная операция?

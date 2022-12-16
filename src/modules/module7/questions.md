@@ -87,17 +87,17 @@ default и static.
 >В Java 8 Stream API доступны методы двух видов — конвейерные и терминальные.
 ###
 #### Способы создания Стрима?
-
-| Источник | Способ | Пример |
-|------------------|--------|---
-|Коллекция|collection.stream()| Collection<String> collection = Arrays.asList("f5", "b6", "z7");
-|Значения|Stream.of(v1,… vN)| Stream<String> valuesS = Stream.of("f5", "b6", "z7"); 
-|Примитивы|IntStream.of(1, … N)|IntStream intS = IntStream.of(9, 8, 7);
-| -     |DoubleStream.of(1.1, … N)| DoubleStream doubleS = DoubleStream.of(2.4, 8.9);
-| Массив|Arrays.stream(arr)	|String[] arr = {"f5","b6","z7"}; 
-|- |- | Stream<String> arrS = Arrays.stream(arr);
-|Файл - каждая новая строка становится элементом|Files.lines(file_path)	|Stream<String> fromFileS = Files.lines(Paths.get("doc.txt"))
-|Stream.builder	|Stream.builder().add(...)|Stream.builder().add("f5").add("b6").build()
+>
+>| Источник | Способ | Пример |
+>|------------------|--------|---
+>|Коллекция|collection.stream()| Collection<String> collection = Arrays.asList("f5", "b6", "z7");
+>|Значения|Stream.of(v1,… vN)| Stream<String> valuesS = Stream.of("f5", "b6", "z7"); 
+>|Примитивы|IntStream.of(1, … N)|IntStream intS = IntStream.of(9, 8, 7);
+>| -     |DoubleStream.of(1.1, … N)| DoubleStream doubleS = DoubleStream.of(2.4, 8.9);
+>| Массив|Arrays.stream(arr)	|String[] arr = {"f5","b6","z7"}; 
+>|- |- | Stream<String> arrS = Arrays.stream(arr);
+>|Файл - каждая новая строка становится элементом|Files.lines(file_path)	|Stream<String> fromFileS = Files.lines(Paths.get("doc.txt"))
+>|Stream.builder	|Stream.builder().add(...)|Stream.builder().add("f5").add("b6").build()
 
 
 

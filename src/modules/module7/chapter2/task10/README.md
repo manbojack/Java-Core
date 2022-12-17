@@ -20,11 +20,7 @@
 
 ### [Решение:]()
 ```java
-private static int mid(int number) {
-    return (number % 10000) / 10;
-}
-
 public static IntStream pseudoRandomStream(int seed) {
-    return IntStream.iterate(seed, x -> mid(x * x));
+    return IntStream.iterate(seed, x -> (x * x % 10000) / 10);
 }
 ```
